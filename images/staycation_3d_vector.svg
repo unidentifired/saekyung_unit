@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-label="3D vector illustration of a modern condo staycation pool">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1684e8"/><stop offset="1" stop-color="#8bd5ff"/></linearGradient>
+  <linearGradient id="deck" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7d1c5"/><stop offset="1" stop-color="#aaa397"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#079fe7"/><stop offset="1" stop-color="#0755a7"/></linearGradient>
+  <linearGradient id="tower" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff8e9"/><stop offset=".7" stop-color="#eadfc9"/><stop offset="1" stop-color="#c9bda9"/></linearGradient>
+  <linearGradient id="towerSide" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c8b8a0"/><stop offset="1" stop-color="#a98f78"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".22"/></filter>
+  <pattern id="tiles" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#eee9df" stroke-width="2" opacity=".65"/></pattern>
+</defs>
+<!-- sky -->
+<rect width="1536" height="1024" fill="url(#sky)"/>
+<!-- clouds -->
+<g fill="#fff" opacity=".9">
+ <path d="M220 190c22-40 83-43 109-3 34-31 91-10 91 37H183c0-20 16-34 37-34z"/>
+ <path d="M1040 155c18-35 68-39 91-5 30-25 73-6 73 29h-191c0-14 11-24 27-24z"/>
+</g>
+<!-- distant trees -->
+<path d="M0 600c100-80 190-74 282 3 75-70 151-62 225 5 90-85 187-68 259 7 89-76 184-70 275 0 87-73 184-57 250 10v180H0z" fill="#1d633f" opacity=".95"/>
+<!-- left tower -->
+<g filter="url(#shadow)">
+ <path d="M75 85 392 38l95 54v510H75z" fill="url(#tower)"/>
+ <path d="M392 38 487 92v510l-95 47z" fill="url(#towerSide)"/>
+ <path d="M75 85 392 38l95 54-317 52z" fill="#fffdf4"/>
+</g>
+<!-- left tower windows/balconies -->
+<g fill="#244c67">
+ <path d="M104 145h55v55h-55zM179 134h55v55h-55zM254 123h55v55h-55zM329 112h55v55h-55z"/>
+ <path d="M104 230h55v55h-55zM179 219h55v55h-55zM254 208h55v55h-55zM329 197h55v55h-55z"/>
+ <path d="M104 315h55v55h-55zM179 304h55v55h-55zM254 293h55v55h-55zM329 282h55v55h-55z"/>
+ <path d="M104 400h55v55h-55zM179 389h55v55h-55zM254 378h55v55h-55zM329 367h55v55h-55z"/>
+ <path d="M104 485h55v55h-55zM179 474h55v55h-55zM254 463h55v55h-55zM329 452h55v55h-55z"/>
+</g>
+<g stroke="#fff" stroke-width="7" opacity=".85">
+ <path d="M92 212h306M92 297h306M92 382h306M92 467h306M92 552h306"/>
+</g>
+<!-- right tower -->
+<g filter="url(#shadow)">
+ <path d="M675 170 1047 122l111 61v430H675z" fill="url(#tower)"/>
+ <path d="M1047 122 1158 183v430l-111 48z" fill="url(#towerSide)"/>
+ <path d="M675 170 1047 122l111 61-371 53z" fill="#fffdf4"/>
+</g>
+<g fill="#244c67">
+ <path d="M706 223h63v54h-63zM789 212h63v54h-63zM872 201h63v54h-63zM955 190h63v54h-63z"/>
+ <path d="M706 300h63v54h-63zM789 289h63v54h-63zM872 278h63v54h-63zM955 267h63v54h-63z"/>
+ <path d="M706 377h63v54h-63zM789 366h63v54h-63zM872 355h63v54h-63zM955 344h63v54h-63z"/>
+ <path d="M706 454h63v54h-63zM789 443h63v54h-63zM872 432h63v54h-63zM955 421h63v54h-63z"/>
+ <path d="M706 531h63v54h-63zM789 520h63v54h-63zM872 509h63v54h-63zM955 498h63v54h-63z"/>
+</g>
+<g stroke="#fff" stroke-width="7" opacity=".85"><path d="M692 287h344M692 364h344M692 441h344M692 518h344M692 595h344"/></g>
+<!-- pool deck -->
+<path d="M0 615 1536 570v454H0z" fill="url(#deck)"/>
+<path d="M0 615 1536 570v454H0z" fill="url(#tiles)" opacity=".7"/>
+<!-- main pool -->
+<g filter="url(#shadow)">
+ <path d="M125 678 1120 641l245 72-930 145z" fill="#f5f1e9"/>
+ <path d="M157 695 1110 661l202 58-872 136z" fill="url(#water)"/>
+ <path d="M157 695 1110 661l202 58-872 136z" fill="url(#tiles)" opacity=".2"/>
+</g>
+<!-- pool lane highlights -->
+<g fill="none" stroke="#5fd6ff" stroke-width="9" opacity=".65">
+ <path d="M190 741c220-35 455-45 699-31"/><path d="M325 805c250-40 491-50 760-32"/>
+</g>
+<!-- island -->
+<path d="M510 695 725 671l111 31-207 38z" fill="#eee9de"/>
+<path d="M526 695 720 676l91 26-188 31z" fill="#2c9a51"/>
+<!-- palms -->
+<g stroke="#765a3c" stroke-width="14" stroke-linecap="round" fill="none">
+ <path d="M620 700c-4-84 2-143 24-195"/><path d="M754 684c3-76 10-123 31-173"/>
+</g>
+<g fill="#19834d">
+ <path d="M643 505c-57-35-92-29-126-6 38 12 70 24 99 44-55-4-86 11-111 36 49-1 84-1 119 17-35 15-54 37-60 64 47-18 74-39 91-72 13 31 34 49 66 58-3-39-19-67-49-85 41 4 70-7 91-28-39-17-77-20-120-11 23-10 37-21 0-17z"/>
+ <path d="M786 513c-52-28-82-23-113-5 34 11 62 22 88 38-45-3-73 10-95 31 43-1 73 0 103 15-31 14-48 33-53 56 42-15 66-34 82-62 11 27 30 43 57 51-2-34-17-58-43-75 35 3 61-6 79-24-34-15-66-17-105-10z"/>
+</g>
+<!-- foreground pool edge -->
+<path d="M0 905 1090 738l446 122v164H0z" fill="#e9e3d8"/>
+<path d="M0 924 1090 757l446 122v19L1090 779 0 948z" fill="#fffaf0"/>
+<!-- lounge chairs -->
+<g fill="#f7f5ef" stroke="#8e8b84" stroke-width="5">
+ <path d="M1210 694h170l28 45h-170z"/><path d="M1197 748h174l25 14h-174z"/>
+ <path d="M1310 658h170l28 45h-170z"/><path d="M1297 712h174l25 14h-174z"/>
+ <path d="M1400 626h136l0 42h-160z"/>
+</g>
+<!-- right wall and lights -->
+<path d="M1265 690h271v185h-271z" fill="#d8dce0"/>
+<g fill="#fff6c8"><circle cx="1300" cy="735" r="9"/><circle cx="1380" cy="735" r="9"/><circle cx="1460" cy="735" r="9"/><circle cx="1300" cy="815" r="9"/><circle cx="1380" cy="815" r="9"/><circle cx="1460" cy="815" r="9"/></g>
+<!-- foreground shadows -->
+<g fill="#000" opacity=".08"><path d="M0 760 430 690l160 75L0 855z"/><path d="M1040 850 1536 730v95l-410 105z"/></g>
+</svg>

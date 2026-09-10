@@ -36,7 +36,28 @@ function renderSignedOut() {
   ownerPanel.classList.add("hidden");
 }
 
+function isInAppBrowser() {
+  const ua = navigator.userAgent || "";
+  return /FBAN|FBAV|Instagram|Line\/|MicroMessenger|TikTok|Twitter|GSA\/|Snapchat/i.test(ua);
+}
+
+function showInAppBrowserWarning() {
+  const existing = document.getElementById("inapp-browser-warning");
+  if (existing) { existing.scrollIntoView({ behavior: "smooth", block: "center" }); return; }
+  const banner = document.createElement("div");
+  banner.id = "inapp-browser-warning";
+  banner.className = "mt-3 text-sm bg-coral/10 text-coral border border-coral/30 rounded-xl p-3";
+  banner.innerHTML = `Google sign-in won't work inside this app's built-in browser. Tap the &bull;&bull;&bull; or share icon and choose "Open in Safari" or "Open in Chrome," then try again.`;
+  const anchor = document.getElementById("review-signin-btn") || document.getElementById("nav-signin");
+  anchor.insertAdjacentElement("afterend", banner);
+  banner.scrollIntoView({ behavior: "smooth", block: "center" });
+}
+
 async function handleSignIn() {
+  if (isInAppBrowser()) {
+    showInAppBrowserWarning();
+    return;
+  }
   try {
     await signInWithPopup(auth, googleProvider);
   } catch (err) {

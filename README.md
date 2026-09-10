@@ -1,4 +1,4 @@
-# Saekyung Tides — Rental Condo Website
+# Saekyung Staycation — Rental Condo Website
 
 A static site (HTML + Tailwind + vanilla JS) for showcasing two condo units,
 with Google-authenticated reviews, live availability, and a small rule-based

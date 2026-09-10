@@ -22,7 +22,7 @@ const firebaseConfig = {
 //    controls (approve reviews, flip availability). Everyone else
 //    only ever sees the public site.
 export const OWNER_EMAILS = [
-  "warrensolon1211@gmail.com",
+   "warrensolon1211@gmail.com",
 ];
 
 export const app = initializeApp(firebaseConfig);

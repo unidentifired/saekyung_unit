@@ -103,7 +103,7 @@
   toggle.addEventListener("click", () => {
     panel.classList.toggle("hidden");
     if (!panel.classList.contains("hidden") && messagesEl.children.length === 0) {
-      addMessage("Hi! I'm the Tides assistant. Ask me about pricing, availability, or discounts.", "bot");
+      addMessage("Hi! I'm the Saekyung Staycation assistant. Ask me about pricing, availability, or discounts.", "bot");
       renderSuggestions(SUGGESTIONS);
     }
   });
