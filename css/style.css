@@ -254,6 +254,11 @@ body { font-feature-settings: "ss01"; }
 .chatbot-input-row input { flex: 1; border: none; padding: 12px 14px; font-size: 0.85rem; outline: none; }
 .chatbot-input-row button { width: 46px; display: flex; align-items: center; justify-content: center; background: none; border: none; color: var(--coral); cursor: pointer; }
 
+/*close chatbot*/
+.hidden {
+  display: none !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .unit-card, #chatbot-toggle { transition: none; }
