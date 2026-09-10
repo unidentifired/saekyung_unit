@@ -261,7 +261,4 @@ body { font-feature-settings: "ss01"; }
   html { scroll-behavior: auto; }
   .unit-card, #chatbot-toggle { transition: none; }
 }
-/*close chatbot*/
-.hidden {
-  display: none !important;
-}
+
