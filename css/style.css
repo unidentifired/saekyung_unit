@@ -210,10 +210,7 @@ body { font-feature-settings: "ss01"; }
 #star-input span.active { color: var(--gold); }
 
 /* ---------- Chatbot ---------- */
-/*close chatbot*/
-.hidden {
-  display: none !important;
-}
+
 #chatbot-root { position: fixed; bottom: 22px; right: 22px; z-index: 50; }
 #chatbot-toggle {
   width: 58px; height: 58px; border-radius: 50%;
@@ -263,4 +260,8 @@ body { font-feature-settings: "ss01"; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .unit-card, #chatbot-toggle { transition: none; }
+}
+/*close chatbot*/
+.hidden {
+  display: none !important;
 }
